@@ -2,6 +2,7 @@ import org.junit.Test;
 
 public class StringVsStringBuffer {
 
+	// https://github.com/junit-team/junit4/wiki/timeout-for-tests
 	@Test
 	public void testWithStringBuffer() {
 		StringBuffer s3 = new StringBuffer("Value1");
